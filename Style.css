@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/orbitron');
+
+body{
+    background-color: #000000;
+    color: #ece8e1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.logo{
+    display: inline-block;
+    margin: 10px auto;
+}
+
+a{
+    transition: transform 0.3s ease;
+}
+
+.film-title{
+    font-family: arial, bold;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.Fond-étoile{
+    background-image: url('images/Fond étoile noir.avif');
+}
+
+.film-title{
+    color: white;
+    font-size: 25px;
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+}
+
+.film-synopsis{
+  display: flex;
+  gap: 12px;
+  color: #ffffff;
+  font-family:Orbitron, sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.capsule-bleu {
+  display: inline-block;
+  width: 8px;
+  height: 28px;
+  background-color: #376FFF;
+  border-radius: 10px;        
+  box-shadow: 
+    0 0 5px #0569FF,
+    0 0 20px #0569FF;
+}
+
+
+.synopsis {
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #FFE81F;
+}
+
+.titre-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #ffffff;
+  font-family:Orbitron, sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.capsule-rouge {
+  display: inline-block;
+  width: 8px;
+  height: 28px;
+  background-color: #FF2A2A;
+  border-radius: 10px;        
+  box-shadow: 
+    0 0 5px #E52E2E,
+    0 0 20px #E52E2E;
+}
+
+
+
+
+.grille-galerie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 30px;  
+    max-width: 1000px; 
+    margin: 0 auto 60px auto;  
+}
+
+.carte-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+}
+
+.carte-image img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+
+.carte-image p {
+    font-family: Orbitron, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 12px;
+    line-height: 1.3;
+}
+
+.preview {
+    
+}
+
+.film-fun-fact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #ffffff;
+  font-family:Orbitron, sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.capsule-vert {
+  display: inline-block;
+  width: 8px;
+  height: 28px;
+  background-color: #00FF00;
+  border-radius: 10px;        
+  box-shadow: 
+    0 0 5px #00FF66,
+    0 0 20px #00FF66;
+}
+
+.fun{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #FFE81F;
+}
+
+.fact{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #FFE81F;
+}
+
+
+
+.films-container {
+    display: flex;             
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Poster {
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 50px;
+
+}
+
+.ligne-separation {
+    display: block;
+    height: 1px;  
+    width: 60%;  
+    background-color: rgb(74, 74, 74);
+    margin: 30px 275px;
+}
+
+.laser.saber {
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+
+.Poster:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.laser.saber:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.carte-image img:hover {
+    transform: scale(1.03);
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
